@@ -1,6 +1,7 @@
 // Maintenance.jsx
 import React from "react";
 import logo from "../assets/analysthub.jpg";
+import { FaLinkedin } from "react-icons/fa6";
 
 
 const Maintenance = () => {
@@ -22,12 +23,16 @@ const Maintenance = () => {
                 </svg>
                 <span>+234 (0) 906-850-9555</span>
             </a>
-            <a href="#" class="flex items-center space-x-1" target="_blank" title="Email">
+            <a href="mailto:support@theanalysthub.ng" class="flex items-center space-x-1" target="_blank" title="Email">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                 </svg>
                 <span>support@theanalysthub.ng</span>
+            </a>
+            <a href="https://www.linkedin.com/company/theanalysthub/" target="_blank" class="flex items-center space-x-1"  title="Email">
+                <FaLinkedin/>
+                <span>theanalysthub</span>
             </a>
             <div><img src={logo} className="w-20  rounded-lg " alt="logo"/></div>
         </div>
